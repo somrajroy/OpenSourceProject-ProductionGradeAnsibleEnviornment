@@ -1,0 +1,10 @@
+-
+  name: check os release of your Linux systems
+  hosts: all
+  tasks:
+    - name: OS release
+      register: osrelease
+      command: "cat /etc/os-release"
+      
+    - debug:
+        var: osrelease.stdout_lines
