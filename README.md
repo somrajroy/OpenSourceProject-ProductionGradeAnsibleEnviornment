@@ -26,4 +26,4 @@
   $ ansible all -a "cat /etc/os-release" <br/>
   ![image](https://user-images.githubusercontent.com/92582005/208141930-703fad0e-8e51-49c7-b900-05ba0830765c.png) <br/><br/>
 
-* The enviornment set-up is now set up. The machines can be shut down from virtual box and restarted anytime later. More complex ansible automation tasks can be performed in setup as it mimics a production environment with different linux distros. <br/>
+* The enviornment set-up is now successful. The machines can be shut down from virtual box and restarted anytime later. More complex ansible automation tasks (e.g. patching the different servers automatically) can be performed in setup as it mimics a production environment with different linux distros. <br/>
