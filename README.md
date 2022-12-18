@@ -2,11 +2,11 @@
 
 * Instal virtual box and download latest versions (64bit) of Debian, Ubuntu & Cent OS VDI's from [OS Box images for virtual box](https://www.osboxes.org/virtualbox-images/).<br/>
 * [Follow the steps to install a host for each distro (debian, centos & ubuntu)](https://www.youtube.com/watch?v=pIKFxK2Gfnc). <br/>
-* Follow the steps carefully to ensure internet access for all the VDI's. Ubuntu and Debian would work fine but CentOS can give issues and [this video will resolve the problem](https://www.youtube.com/watch?v=IxookDRgOZM).<br/>
+* Follow the steps carefully to ensure internet access for all the VDI's. Ubuntu and Debian would work fine but CentOS might give issues and [this video will resolve the problem](https://www.youtube.com/watch?v=IxookDRgOZM). If the earlier video is followed then CentOS will also work fine. If not refer the second video.<br/>
 * For CentOS download the "Workstation" (not the server). <br/>
 * Password would be in the info tab. <br/>
   ![image](https://user-images.githubusercontent.com/92582005/208136867-87caf7e4-2a5f-4be1-a595-79d2ac220ba1.png) <br/>
-* Start the servers and SSH into them through MobaXterm. <br/>
+* Start the servers and SSH into them (e.g. MobaXterm). <br/>
 * [Make any one of the server as Ansible master and install Ansible.](https://docs.ansible.com/ansible/latest/installation_guide/installation_distros.html). Verify by running the command "ansible --version".<br/>
 * In Ansible master create any folder (e.g. ansible_test) and change directory to it (mkdir ansible_test & cd ansible_test). <br/>
 * Create file ansible.cfg and enter the below two commands. <br/>
