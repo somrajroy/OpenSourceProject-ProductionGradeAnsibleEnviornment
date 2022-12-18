@@ -1,4 +1,5 @@
 #### Set up of a real time production scenario of various Linux hosts (distros) which can be managed centrally with Ansible Master. <br/><br/>
+#### Test set-up by running modules and playbooks. <br/>
 
 * Instal virtual box and download latest versions (64bit) of Debian, Ubuntu & Cent OS VDI's from [OS Box images for virtual box](https://www.osboxes.org/virtualbox-images/).<br/>
 * [Follow the steps to install a host for each distro (debian, centos & ubuntu)](https://www.youtube.com/watch?v=pIKFxK2Gfnc). <br/>
