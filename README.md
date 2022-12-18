@@ -12,7 +12,7 @@
 * Create file ansible.cfg and enter the below two commands. <br/>
   $ nano ansible.cfg <br/>
   ![image](https://user-images.githubusercontent.com/92582005/208138868-12cabb61-3000-4c94-9ea0-b54a11e56eef.png) <br/>
-* Group your remote hosts as per OS and enter the login credentials in the ":vars" section as below. Change the IP addresses with your's. For sudo user password add "ansible_become_password".<br/>
+* Create a file "inventory.txt" in the folder created above and group your remote hosts as per OS and enter the login credentials in the ":vars" section as below. Change the IP addresses with your's. For sudo user password add "ansible_become_password".<br/>
   ![image](https://user-images.githubusercontent.com/92582005/208139334-46812457-afc2-4931-b9d9-a90699aa44b9.png)<br/>
 * To check connectivity run the playbook ping_test.yaml with below command & the output will be similar to image below. Source code uploaded in this repository.<br/>
   $ ansible-playbook ping_test.yaml <br/>
